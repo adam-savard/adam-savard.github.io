@@ -1,4 +1,4 @@
-import WinBox from '../winbox.bundle';
+import WinBox from 'https://unpkg.com/winbox@0.2.1/src/js/winbox.js';
 
 const Shortcut = class {
     /**
