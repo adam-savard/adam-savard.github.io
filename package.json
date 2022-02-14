@@ -1,0 +1,22 @@
+{
+  "name": "adam-savard.github.io",
+  "version": "1.0.0",
+  "description": "Adam Savard's Wesbite",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam-savard/adam-savard.github.io.git"
+  },
+  "author": "Adam Savard",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/adam-savard/adam-savard.github.io/issues"
+  },
+  "homepage": "https://github.com/adam-savard/adam-savard.github.io#readme",
+  "dependencies": {
+    "winbox": "^0.2.1"
+  }
+}
