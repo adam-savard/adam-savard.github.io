@@ -47,7 +47,10 @@ const Shortcut = class {
         image.style.maxWidth = '50px';
         anchor.appendChild(image);
 
-        parent.appendChild(anchor);
+        let li = document.createElement('li');
+        li.appendChild(anchor);
+
+        parent.appendChild(li);
     }
 
     showContent() {

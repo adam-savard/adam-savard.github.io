@@ -11,6 +11,16 @@
     font-size: x-small;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#icons:a {
+    padding: '10px';
+}
+
 @media (prefers-color-scheme: dark) {
     .day.dark-scheme {
         background: #333;
