@@ -1,4 +1,4 @@
-import WinBox from 'winbox';
+import WinBox from '../winbox.bundle';
 
 const Shortcut = class {
     /**
