@@ -11,6 +11,7 @@ const Shortcut = class {
             windowContent: document.createElement('div'),
             windowOptions: {},
             parentElement: document.createElement('div'),
+            shortcutText: 'A String',
         }
     ) {
         /**
@@ -46,6 +47,11 @@ const Shortcut = class {
         image.style.maxHeight = '50px';
         image.style.maxWidth = '50px';
         anchor.appendChild(image);
+
+        let text = document.createElement('div');
+        text.innerHTML = options.shortcutText;
+
+        anchor.appendChild(text);
 
         let li = document.createElement('li');
         li.appendChild(anchor);

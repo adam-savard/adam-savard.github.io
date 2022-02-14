@@ -1,5 +1,6 @@
 body {
     background-image: url('https://adam-savard.github.io/images/background.jpg');
+    font-family: 'Roboto', sans-serif;
 }
 
 .toggle-darkmode {
