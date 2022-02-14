@@ -39,7 +39,7 @@ const Shortcut = class {
         this.windowBox = null;
 
         let anchor = document.createElement('a');
-        anchor.on('click', this.click.bind(this));
+        anchor.click = this.click.bind(this);
 
         let image = document.createElement('img');
         image.src = options.image;
