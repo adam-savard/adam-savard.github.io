@@ -6,6 +6,8 @@ body {
     position: absolute;
     right: 5%;
     top: 5%;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
 }
 
 .day {
@@ -103,7 +105,7 @@ ul {
 }
 
 input:checked + .slider {
-    background-color: #0f0f0f;
+    background-color: #eee7e7;
 }
 
 input:focus + .slider {
