@@ -41,6 +41,7 @@ const Shortcut = class {
 
         let anchor = document.createElement('a');
         anchor.click = this.click.bind(this);
+        anchor.href = '#';
 
         let image = document.createElement('img');
         image.src = options.image;
