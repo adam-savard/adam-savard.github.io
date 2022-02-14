@@ -40,7 +40,7 @@ const Shortcut = class {
         this.windowBox = null;
 
         let anchor = document.createElement('a');
-        anchor.click = this.click.bind(this);
+        anchor.onclick = this.click.bind(this);
         anchor.href = '#';
 
         let image = document.createElement('img');
@@ -50,7 +50,7 @@ const Shortcut = class {
         anchor.appendChild(image);
 
         let text = document.createElement('div');
-        text.innerHTML = options.shortcutText;
+        text.innerHTML = options.shortcutText + '<br/>';
 
         anchor.appendChild(text);
 

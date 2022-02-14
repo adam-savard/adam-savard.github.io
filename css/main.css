@@ -30,8 +30,17 @@ ul {
     flex-wrap: wrap;
 }
 
-#icons:a {
-    padding: '10px';
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+li:img {
+    text-align: center;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 @media (prefers-color-scheme: dark) {

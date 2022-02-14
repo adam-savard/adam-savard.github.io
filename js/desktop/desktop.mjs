@@ -17,15 +17,17 @@ const Desktop = class {
                 title: `Adam Savard's Resume`,
             },
             parentElement: iconList,
+            shortcutText: 'Resume',
         });
 
         let attributionsShortcut = new Shortcut({
-            image: 'https://adam-savard.github.io/images/resume.png',
-            windowContent: resume,
+            image: 'https://adam-savard.github.io/images/info.png',
+            windowContent: attributions,
             windowOptions: {
-                title: `Adam Savard's Resume`,
+                title: `Icons`,
             },
             parentElement: iconList,
+            shortcutText: 'Icon Attributions',
         });
 
         document.body.appendChild(desktopIconsContainer);
