@@ -1,5 +1,5 @@
 const resume = `<iframe
-    src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://infolab.stanford.edu/pub/papers/google.pdf#toolbar=0&scrollbar=0"
+    src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://adam-savard.github.io/pdf/resume.pdf"
     frameBorder="0"
     scrolling="auto"
     height="100%"
