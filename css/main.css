@@ -6,6 +6,7 @@ body {
 .toggle-darkmode {
     position: relative;
     float: right;
+    margin-top: 95%;
     color: #eee;
     font-family: 'Roboto', sans-serif;
 }
