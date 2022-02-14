@@ -50,7 +50,7 @@ const Shortcut = class {
         let li = document.createElement('li');
         li.appendChild(anchor);
 
-        parentElement.appendChild(li);
+        options.parentElement.appendChild(li);
     }
 
     showContent() {
