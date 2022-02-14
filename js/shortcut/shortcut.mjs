@@ -10,7 +10,7 @@ const Shortcut = class {
             image: 'image source',
             windowContent: document.createElement('div'),
             windowOptions: {},
-            parent: document.createElement('div'),
+            parentElement: document.createElement('div'),
         }
     ) {
         /**
@@ -50,7 +50,7 @@ const Shortcut = class {
         let li = document.createElement('li');
         li.appendChild(anchor);
 
-        parent.appendChild(li);
+        parentElement.appendChild(li);
     }
 
     showContent() {

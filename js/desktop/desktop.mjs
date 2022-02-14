@@ -16,7 +16,7 @@ const Desktop = class {
             windowOptions: {
                 title: `Adam Savard's Resume`,
             },
-            parent: iconList,
+            parentElement: iconList,
         });
 
         let attributionsShortcut = new Shortcut({
@@ -25,7 +25,7 @@ const Desktop = class {
             windowOptions: {
                 title: `Adam Savard's Resume`,
             },
-            parent: iconList,
+            parentElement: iconList,
         });
 
         document.body.appendChild(desktopIconsContainer);
