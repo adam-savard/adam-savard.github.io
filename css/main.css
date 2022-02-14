@@ -3,9 +3,8 @@ body {
 }
 
 .toggle-darkmode {
-    position: absolute;
-    right: 5%;
-    top: 5%;
+    position: relative;
+    float: right;
     color: #eee;
     font-family: 'Roboto', sans-serif;
 }
